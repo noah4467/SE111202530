@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Week 2 Labs</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="ugandan knuckles dancing">
+        <meta name="author" content="Noah">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="main">
+            <h1>Welcome to Week 2 Lab</h1>
+            <span id="welcome-message"></span>
+            <h2>This week we will be covering URL, URI, Attributes, more HTML, and some Javascript and a little CSS</h2>
+            <div id="navigation">
+                <ul>
+                    <!-- Example of Relative Path and a URI  -->
+                    <li><a href="../index.html">Link back to main page</a></li>
+                    <!-- Example of a URL and absolute path -->
+                    <li><a href="http://youtube.com">Youtube</a></li>
+                    <!-- Example of URI and Absolute path -->
+                    <li><a href="https://st2.depositphotos.com/1591133/8812/i/450/depositphotos_88120646-stock-photo-idyllic-summer-landscape-with-clear.jpg">Picture Link</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <iframe height="315" src="https://www.youtube.com/embed/tZvWxJtbSwE?si=Ld1Q8rN-Z_ABj_AH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam perferendis corporis nisi quisquam neque rem fugiat aspernatur animi. Veniam quasi similique natus officia dolorum eveniet ipsa accusamus? Suscipit, doloribus sit.</p>
+            </div>
+            <div id="footer">
+                <p>&copy; 2025 HTML/Javascript class</p>
+            </div>        
+        </div>
+        <script>
+            var message = prompt("What is your name");
+            //alert(message + " You have a virus");
+            document.getElementByID("welcome-message").innerHTML = 'Welcome ${message} to to week 2 lab.';
+            document.getElementByID("footer").style.color = "red";
+        </script>
+    </body>
+</html>
