@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Shrek;
+    src: url(../fonts/Shrek.ttf);
+}
+html, body{
+    display: flex;
+    justify-content: center;
+    background-color: #093009;
+}
+#main{
+    width: 1000px;
+    padding: 10px;
+    border: 1px solid black;
+    background: #29773e;
+}
+/* #header{ */
+    /* height: 130px; */
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif */
+/* } */
+h1{
+    line-height: 130px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Shrek;
+}
+#nav{
+    height: 100px;
+    text-align:center;
+    line-height: 40px;
+}
+.nav-btn:link{
+    color:white;
+    text-decoration:none;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+
+}
+.nav-btn:hover{
+    color:white;
+    text-decoration:underline;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+.nav-btn:visited{
+    color:white;
+    text-decoration:none;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+li{
+    margin: 20px 0 20px 0;
+    width: 400px;
+}
+.side-btn:link{
+    padding:10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.side-btn:hover{
+    padding:10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:grey
+}
+
+#content{
+    float: left;
+    height: 400px;
+    width: 580px;
+    padding:10px
+}
+#sidebar{
+    float: right;
+    height: 400px;
+    width: 380px;
+    padding:10;
+}
+#footer{
+    clear: both;
+    height: 30px;
+    text-align: center;
+    line-height:30px;
+}
+ul{
+    list-style-type: none;
+}
+#content-p{
+    color: white;
+}
