@@ -91,3 +91,13 @@ ul{
 #content-p{
     color: white;
 }
+.cast, p{
+    width:400px;
+    float:left;
+}
+.cast, img{
+    float: left;
+}
+.cast{
+    width:100%;
+}
