@@ -1,0 +1,62 @@
+@font-face{
+    font-family: Shrek;
+    src: url(../fonts/Shrek.TTF)
+}
+#nav{
+    text-align: center;
+    line-height: 40px;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-family: Shrek;
+}
+h2{
+    text-align: center;
+    color:white;
+    font-family: Shrek;
+}
+html, body{
+    background-color:rgb(2, 20, 1);
+    justify-content: center;
+    display: flex;
+}
+#container{
+    background-color: rgb(36, 236, 62);
+    width:1000px;
+    border: 1px solid black;
+    padding:10px;
+}
+.nav-btn{
+    color: white;
+    text-decoration: none;
+    font-size:large;
+    padding:30px;
+    font-size:larger;
+    font-family: Shrek;
+}
+.nav-btn:hover{
+    color:rgb(1, 46, 5);
+    font-family: Shrek;
+}
+#sidebar{
+    float:inline-end;
+    width:300px;
+    height:500px
+}
+#content-p{
+    color:white;
+    font-family: Shrek;
+    font-size:large;
+}
+#validation{
+    float:center;
+}
+.character{
+    justify-content:center;
+    font-family: Shrek;
+}
+.info{
+    font-size:large
+}
