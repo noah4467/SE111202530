@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The Krusty Krab</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <h1>The Krusty Krab</h1>
+                <h2>Employee Site</h2>
+            </div>
+            <div id="nav">
+                <a href="announcements.html" class="nav-btn">Announcements</a>
+                <a href="index.html" class="nav-btn">Home</a>
+                <a href="Stats.html" class="nav-btn">Stats</a>
+            </div>
+            <div id="Ann1">
+                <p class="announcer">Eugene Krabs</p>
+                <p class="announcement">Good morning, As of 2/21/2026 we will no loner be offering paid breaks during work hours. Thank you for your attention to this matter.</p>
+            </div>
+            <div id="Ann2">
+                <p class="announcer">Eugene Krabs</p>
+                <p class="announcement">A hurricane is not an excuse to stay home from work.</p>
+            </div>
+            <div id="Ann3">
+                <p class="announcer">Eugene Krabs</p>
+                <p class="announcement">A reminder: any belongings left over the weekend will be destroyed.</p>
+            </div>
+            <div id="Ann4">
+                <p class="announcer">Eugene Krabs</p>
+                <p class="announcement">The Krusty Krab reserves the right to perform randomly-selected searches.</p>
+            </div>
+            <div id="Ann5">
+                <p class="announcer">Eugene Krabs</p>
+                <p class="announcement">The Krusty Krab wishes you a happy new year!</p>
+            </div>
+        </div>
+        <style>
+            @font-face {
+                font-family: Krabby Patty;
+                src: url(fonts/Krabby\ Patty.ttf)
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                background-image: url(images/bikinibottom.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            #main{
+                width: 1000px;
+                padding: 10px;
+                border: 1px solid black;
+                background: #dba6d8;
+            }
+            h1{
+                text-align: center;
+                font-family: Krabby Patty;
+                color: red;
+            }
+            #nav{
+                height: 100px;
+                text-align: center;
+                line-height: 40px;
+            }
+            .nav-btn:link{
+                color: white;
+                text-decoration: none;
+                font-size: large;
+                font-family: Krabby Patty;
+                padding: 50px;
+            }
+            .nav-btn:visited{
+                color: white;
+                text-decoration: none;
+                font-size: large;
+                font-family: Krabby Patty;
+                padding: 50px;
+            }
+            #content{
+                float: left;
+            }
+            #sidebar{
+                float: right;
+                height: 400px;
+                width: 380px;
+                font-family: Krabby Patty;
+                color: green;
+                font-size: xx-large
+            }
+            #owner{
+                justify-content: center;
+            }
+            .image-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                text-align: center;
+            }
+
+            .card img {
+                width: 100%;
+                height: auto;
+                display: block;
+                width: 100%;
+                height: 250px;        /* pick a fixed height */
+                object-fit: cover;   /* fills box, crops overflow */
+                display: block;
+            }
+
+            .top-text {
+                font-weight: bold;
+                margin-bottom: 8px;
+                color: #095a0f;
+                font-family: Krabby Patty;
+            }
+
+            .bottom-text {
+                margin-top: 8px;
+                font-family: Krabby Patty;
+                color: red;
+            }
+            h2{
+                text-align: center;
+                font-family: Krabby Patty;
+                color: green;
+            }
+            #Ann1{
+                border: 3px solid #000000; /* Shorthand: width style color */
+                padding: 15px; /* Adds space between the content and the border */
+                margin: 20px; /* Adds space outside the border */
+            }
+            .announcer{
+                font-family: Krabby Patty;
+                color: rgb(8, 114, 15);
+            }
+            .announcement{
+                font-family: Krabby Patty;
+                color: white;
+            }
+            #Ann2{
+                border: 3px solid #000000; /* Shorthand: width style color */
+                padding: 15px; /* Adds space between the content and the border */
+                margin: 20px; /* Adds space outside the border */
+            }
+            #Ann3{
+                border: 3px solid #000000; /* Shorthand: width style color */
+                padding: 15px; /* Adds space between the content and the border */
+                margin: 20px; /* Adds space outside the border */
+            }
+            #Ann4{
+                border: 3px solid #000000; /* Shorthand: width style color */
+                padding: 15px; /* Adds space between the content and the border */
+                margin: 20px; /* Adds space outside the border */
+            }
+            #Ann5{
+                border: 3px solid #000000; /* Shorthand: width style color */
+                padding: 15px; /* Adds space between the content and the border */
+                margin: 20px; /* Adds space outside the border */
+            }
+        </style>
+    </body>
+</html>

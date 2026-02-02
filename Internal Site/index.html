@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Employee Site</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <h1>The Krusty Krab</h1>
+                <h2>Employee Site</h2>
+            </div>
+            <div id="nav">
+                <a href="announcements.html" class="nav-btn">Announcements</a>
+                <a href="index.html" class="nav-btn">Home</a>
+                <a href="Stats.html" class="nav-btn">Stats</a>
+            </div>
+            <div id="content">
+                <img src="images/MoarKrabs_Transparent.webp" alt="Image of Mr Krabs" width="600px">
+            </div>
+            <div id="sidebar">
+                <h2>Welcome!</h2>
+                <p>Here you will find company updates, announcements, and statistics!</p>
+            </div>
+        </div>
+        <style>
+            @font-face {
+                font-family: Krabby Patty;
+                src: url(fonts/Krabby\ Patty.ttf)
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                background-image: url(images/bikinibottom.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            #main{
+                width: 1000px;
+                padding: 10px;
+                border: 1px solid black;
+                background: #dba6d8;
+            }
+            h1{
+                text-align: center;
+                font-family: Krabby Patty;
+                color: red;
+            }
+            #nav{
+                height: 100px;
+                text-align: center;
+                line-height: 40px;
+            }
+            .nav-btn:link{
+                color: white;
+                text-decoration: none;
+                font-size: large;
+                font-family: Krabby Patty;
+                padding: 50px;
+            }
+            .nav-btn:visited{
+                color: white;
+                text-decoration: none;
+                font-size: large;
+                font-family: Krabby Patty;
+                padding: 50px;
+            }
+            #content{
+                float: left;
+            }
+            #sidebar{
+                float: right;
+                height: 400px;
+                width: 380px;
+                font-family: Krabby Patty;
+                color: green;
+                font-size: xx-large
+            }
+            h2{
+                text-align: center;
+                font-family: Krabby Patty;
+                color: green;
+            }
+            p{
+                text-align: right;
+                color: white;
+                font-family: Krabby Patty;
+            }
+        </style>
+    </body>
+</html>
