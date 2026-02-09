@@ -15,23 +15,25 @@
                 <a href="locations.html" class="nav-btn">Locations</a>
             </div>
             <div class="image-grid">
-                <div class="card">
-                  <div class="top-text">Fry Cook</div>
-                  <img src="images/frycook.png" alt="Image 1">
-                  <div class="bottom-text">Spongebob</div>
-                </div>
-              
-                <div class="card">
-                  <div class="top-text">Owner</div>
-                  <img src="images/owner.png" alt="Image 2">
-                  <div class="bottom-text">Mr. Krabs</div>
-                </div>
-              
-                <div class="card">
-                  <div class="top-text">Cashier</div>
-                  <img src="images/cashier.png" alt="Image 3" width="400px">
-                  <div class="bottom-text">Squidward</div>
-                </div>
+                <table border="1">
+                    <tr>
+                        <td><div class="card">
+                            <div class="top-text">Fry Cook</div>
+                            <img src="images/frycook.png" alt="Image 1">
+                            <div class="bottom-text">Spongebob</div>
+                          </div></td>
+                        <td><div class="card">
+                            <div class="top-text">Owner</div>
+                            <img src="images/owner.png" alt="Image 2">
+                            <div class="bottom-text">Mr. Krabs</div>
+                          </div></td>
+                        <td><div class="card">
+                            <div class="top-text">Cashier</div>
+                            <img src="images/cashier.png" alt="Image 3" width="400px">
+                            <div class="bottom-text">Squidward</div>
+                          </div></td>
+                      </tr>
+                </table>
               </div>
         </div>
         <style>
@@ -104,8 +106,8 @@
                 height: auto;
                 display: block;
                 width: 100%;
-                height: 250px;        /* pick a fixed height */
-                object-fit: cover;   /* fills box, crops overflow */
+                height: 250px;
+                object-fit: cover;
                 display: block;
             }
 
@@ -120,6 +122,11 @@
                 margin-top: 8px;
                 font-family: Krabby Patty;
                 color: red;
+            }
+            table{
+                width: 1000px;
+                justify-content: center;
+                display: flex;
             }
         </style>
     </body>
